@@ -1,0 +1,929 @@
+﻿[2015.11.26-17.29.24:174][  0]Log file open, 11/26/15 18:29:24
+[2015.11.26-17.29.24:174][  0]LogInit:Display: Running engine for game: SW_Project2
+[2015.11.26-17.29.24:174][  0]LogInit:Display: RandInit(1835924418) SRandInit(1835924418).
+[2015.11.26-17.29.24:174][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.11.26-17.29.24:174][  0]LogStats: Stats thread started at 0.055734
+[2015.11.26-17.29.24:174][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.26-17.29.24:174][  0]LogInit: API Version: 2672455
+[2015.11.26-17.29.24:174][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.11.26-17.29.24:174][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.11.26-17.29.24:174][  0]LogInit: Build Configuration: Development
+[2015.11.26-17.29.24:174][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.11.26-17.29.24:175][  0]LogInit: Command line:  
+[2015.11.26-17.29.24:175][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.11.26-17.29.24:175][  0]LogInit: Rocket: 1
+[2015.11.26-17.29.24:185][  0]LogInit: Using libcurl 7.41.0
+[2015.11.26-17.29.24:185][  0]LogInit:  - built for x86_64-pc-win32
+[2015.11.26-17.29.24:185][  0]LogInit:  - supports SSL with WinSSL
+[2015.11.26-17.29.24:185][  0]LogInit:  - other features:
+[2015.11.26-17.29.24:185][  0]LogInit:      CURL_VERSION_SSL
+[2015.11.26-17.29.24:185][  0]LogInit:      CURL_VERSION_IPV6
+[2015.11.26-17.29.24:185][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.11.26-17.29.24:185][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.11.26-17.29.24:185][  0]LogInit:      CURL_VERSION_IDN
+[2015.11.26-17.29.24:185][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.11.26-17.29.24:185][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.11.26-17.29.24:185][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.11.26-17.29.24:185][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.11.26-17.29.24:185][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.11.26-17.29.24:193][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.11.26-17.29.24:203][  0]LogInit: Object subsystem initialized
+[2015.11.26-17.29.24:204][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.26-17.29.24:204][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.11.26-17.29.24:212][  0]LogInit: Computer: STOFFEPC
+[2015.11.26-17.29.24:212][  0]LogInit: User: Stoffe
+[2015.11.26-17.29.24:212][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.11.26-17.29.24:212][  0]LogInit: High frequency timer resolution =3.222683 MHz
+[2015.11.26-17.29.24:212][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.11.26-17.29.24:212][  0]LogMemory: Platform Memory Stats for Windows
+[2015.11.26-17.29.24:212][  0]LogMemory: Process Physical Memory: 52.33 MB used, 52.33 MB peak
+[2015.11.26-17.29.24:212][  0]LogMemory: Process Virtual Memory: 54.90 MB used, 54.90 MB peak
+[2015.11.26-17.29.24:212][  0]LogMemory: Physical Memory: 1909.72 MB used, 8126.94 MB total
+[2015.11.26-17.29.24:212][  0]LogMemory: Virtual Memory: 347.52 MB used, 134217728.00 MB total
+[2015.11.26-17.29.24:238][  0]LogTextLocalizationManager: No translations for ('sv-SE') exist, falling back to 'en' for localization and internationalization data.
+[2015.11.26-17.29.25:066][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 7800 Series (Feature Level 11_0)
+[2015.11.26-17.29.25:066][  0]LogD3D11RHI: Adapter has 2030MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 2 output[s]
+[2015.11.26-17.29.25:068][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.11.26-17.29.25:068][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.11.26-17.29.25:068][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.11.26-17.29.25:071][  0]LogD3D11RHI: !Direct3DDevice
+[2015.11.26-17.29.25:071][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.11.26-17.29.25:076][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.11.26-17.29.25:087][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/Stoffe/Documents/GitHub/SW_Project/SW_Project2/Intermediate/Shaders/WorkingDirectory/1416/).
+[2015.11.26-17.29.25:087][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Stoffe/Documents/GitHub/SW_Project/SW_Project2/Intermediate/Shaders/tmp/2A30BF144EFAEF4D9E2F92B7F14A747A/'.
+[2015.11.26-17.29.25:087][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.11.26-17.29.26:348][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.11.26-17.29.26:357][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.11.26-17.29.26:366][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.11.26-17.29.26:374][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.11.26-17.29.26:379][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.11.26-17.29.26:382][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.11.26-17.29.26:386][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.11.26-17.29.26:389][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.11.26-17.29.26:393][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.11.26-17.29.26:396][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.11.26-17.29.26:400][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.11.26-17.29.26:405][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.11.26-17.29.26:406][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.11.26-17.29.26:424][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.11.26-17.29.26:427][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.11.26-17.29.26:431][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.11.26-17.29.26:434][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.11.26-17.29.26:434][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.26-17.29.26:518][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.11.26-17.29.26:561][  0]LogDerivedDataCache: Loaded boot cache 0.04s 45MB C:/Users/Stoffe/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.26-17.29.26:561][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Stoffe/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.11.26-17.29.26:561][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Stoffe/Documents/GitHub/SW_Project/SW_Project2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.11.26-17.29.26:561][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.11.26-17.29.26:561][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Stoffe/Documents/GitHub/SW_Project/SW_Project2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.11.26-17.29.26:561][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.11.26-17.29.26:711][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.11.26-17.29.26:723][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Stoffe/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.11.26-17.29.27:005][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.26-17.29.27:008][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.11.26-17.29.27:139][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.11.26-17.29.27:139][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.11.26-17.29.27:416][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.11.26-17.29.28:077][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.11.26-17.29.28:292][  0]LogAssetRegistry: FAssetRegistry took 0.0113 seconds to start up
+[2015.11.26-17.29.28:481][  0]SourceControl: Info Source control is disabled
+[2015.11.26-17.29.28:489][  0]SourceControl: Info Source control is disabled
+[2015.11.26-17.29.28:500][  0]SourceControl: Info Source control is disabled
+[2015.11.26-17.29.28:511][  0]SourceControl: Info Source control is disabled
+[2015.11.26-17.29.28:650][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.26-17.29.28:728][  0]LogObj: 28554 objects as part of root set at end of initial load.
+[2015.11.26-17.29.28:728][  0]LogUObjectAllocator: 6122616 out of 0 bytes used by permanent object pool.
+[2015.11.26-17.29.28:784][  0]LogEngine: Initializing Engine...
+[2015.11.26-17.29.28:786][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.11.26-17.29.28:787][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.11.26-17.29.28:913][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.11.26-17.29.28:917][  0]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.26-17.29.28:930][  0]LogInit: FAudioDevice initialized.
+[2015.11.26-17.29.28:950][  0]LogDerivedDataCache: Saved boot cache 0.02s 45MB C:/Users/Stoffe/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.26-17.29.28:953][  0]LogInit: Texture streaming: Enabled
+[2015.11.26-17.29.28:959][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.11.26-17.29.28:959][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.26-17.29.28:959][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId c2f82278409fbc7e17ba4c8b187827c0|8471e16762be488588a110ad13c08bd6|a2f24018-7849-4a41-8ec9-fa4680d0f5a7
+[2015.11.26-17.29.28:959][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.11.26-17.29.28:966][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.26-17.29.28:978][  0]LogInit: Transaction tracking system initialized
+[2015.11.26-17.29.29:007][  0]BlueprintLog: New page: Editor Load
+[2015.11.26-17.29.29:108][  0]LocalizationService: Info Localization service is disabled
+[2015.11.26-17.29.29:224][  0]LogConsoleResponse:Display: 
+[2015.11.26-17.29.29:382][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.11.26-17.29.29:451][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Stoffe/Documents/GitHub/SW_Project/SW_Project2/Content/' took 0.02s
+[2015.11.26-17.29.29:451][  0]SourceControl: Info Source control is disabled
+[2015.11.26-17.29.29:451][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Stoffe/Documents/GitHub/SW_Project/SW_Project2/Content/TransitionMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.26-17.29.29:452][  0]LightingResults: New page: Lighting Build
+[2015.11.26-17.29.29:456][  0]MapCheck: New page: Map Check
+[2015.11.26-17.29.29:456][  0]LightingResults: New page: Lighting Build
+[2015.11.26-17.29.29:481][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DE95EA8400
+[2015.11.26-17.29.30:264][  0]LogAIModule: Creating AISystem for world TransitionMap
+[2015.11.26-17.29.30:305][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.26-17.29.30:306][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.26-17.29.30:382][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 75.301ms to complete.
+[2015.11.26-17.29.30:382][  0]LogFileHelpers: Loading map 'TransitionMap' took 0.930
+[2015.11.26-17.29.30:524][  0]LogCollectionManager: Loaded 0 collections in 0.003193 seconds
+[2015.11.26-17.29.30:569][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Stoffe/Documents/GitHub/SW_Project/SW_Project2/Saved/Collections/' took 0.01s
+[2015.11.26-17.29.30:569][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Stoffe/Documents/GitHub/SW_Project/SW_Project2/Content/Developers/Stoffe/Collections/' took 0.01s
+[2015.11.26-17.29.30:569][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Stoffe/Documents/GitHub/SW_Project/SW_Project2/Content/Collections/' took 0.01s
+[2015.11.26-17.29.30:569][  0]LogContentBrowser: Native class hierarchy populated in 0.0110 seconds. Added 1874 classes and 335 folders.
+[2015.11.26-17.29.30:582][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2015.11.26-17.29.30:593][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0017 seconds. Added 0 classes and 0 folders.
+[2015.11.26-17.29.30:644][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0017 seconds. Added 0 classes and 0 folders.
+[2015.11.26-17.29.30:659][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0017 seconds. Added 1 classes and 2 folders.
+[2015.11.26-17.29.30:750][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.11.26-17.29.30:755][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.11.26-17.29.30:778][  0]LogLoad: Full Startup: 7.43 seconds (BP compile: 0.14 seconds)
+[2015.11.26-17.29.30:848][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.11.26-17.29.30:997][  0]LogRenderer: Reallocating scene render targets to support 1028x636 (Frame:2).
+[2015.11.26-17.29.31:992][  4]LogAssetRegistry: Asset discovery search completed in 3.7112 seconds
+[2015.11.26-17.29.31:992][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.11.26-17.29.31:992][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000052 seconds (updated 0 objects)
+[2015.11.26-17.29.34:425][149]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TransitionMap.TransitionMap:PersistentLevel' has LevelScriptBlueprint '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap' with GeneratedClass '/Game/TransitionMap.TransitionMap_C' with ClassGeneratedBy '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap'
+[2015.11.26-17.29.34:425][149]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.26-17.29.34:425][149]PIE: New page: PIE session: TransitionMap (Nov 26, 2015, 7:29:34 PM)
+[2015.11.26-17.29.34:425][149]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TransitionMap
+[2015.11.26-17.29.34:452][149]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026550s)
+[2015.11.26-17.29.34:452][149]LogAIModule: Creating AISystem for world TransitionMap
+[2015.11.26-17.29.34:453][149]LogPlayLevel: PIE: World Init took: (0.000749s)
+[2015.11.26-17.29.34:453][149]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TransitionMap.TransitionMap to /Game/UEDPIE_0_TransitionMap.TransitionMap (0.027695s)
+[2015.11.26-17.29.34:453][149]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2015.11.26-17.29.34:487][149]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.26-17.29.34:494][149]LogInit: FAudioDevice initialized.
+[2015.11.26-17.29.34:562][149]LogWorld: Game class is 'SW_Project2GameMode'
+[2015.11.26-17.29.34:628][149]LogWorld: Bringing World /Game/UEDPIE_0_TransitionMap.TransitionMap up for play (max tick rate 0) at 2015.11.26-18.29.34
+[2015.11.26-17.29.34:628][149]LogActor:Warning: GameSession /Game/UEDPIE_0_TransitionMap.TransitionMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.26-17.29.34:629][149]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_TransitionMap.TransitionMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.26-17.29.34:632][149]LogWorld: Bringing up level for play took: 0.068860
+[2015.11.26-17.29.34:659][149]PIE: Info Play in editor start time for /Game/UEDPIE_0_TransitionMap 1.154
+[2015.11.26-17.29.34:660][149]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TransitionMap.TransitionMap:PersistentLevel' has LevelScriptBlueprint '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap' with GeneratedClass '/Game/TransitionMap.TransitionMap_C' with ClassGeneratedBy '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap'
+[2015.11.26-17.29.34:698][150]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:164).
+[2015.11.26-17.29.41:218][283]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TransitionMap.TransitionMap:PersistentLevel' has LevelScriptBlueprint '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap' with GeneratedClass '/Game/TransitionMap.TransitionMap_C' with ClassGeneratedBy '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap'
+[2015.11.26-17.29.41:307][283]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TransitionMap.TransitionMap:PersistentLevel' has LevelScriptBlueprint '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap' with GeneratedClass '/Game/TransitionMap.TransitionMap_C' with ClassGeneratedBy '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap'
+[2015.11.26-17.29.41:340][283]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DE9BF799E0
+[2015.11.26-17.30.14:213][127]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkyShereBlueprint)
+[2015.11.26-17.30.33:248][615]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TransitionMap.TransitionMap:PersistentLevel' has LevelScriptBlueprint '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap' with GeneratedClass '/Game/TransitionMap.TransitionMap_C' with ClassGeneratedBy '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap'
+[2015.11.26-17.30.33:249][615]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.26-17.30.33:249][615]PIE: New page: PIE session: TransitionMap (Nov 26, 2015, 7:30:33 PM)
+[2015.11.26-17.30.33:249][615]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TransitionMap
+[2015.11.26-17.30.33:281][615]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032225s)
+[2015.11.26-17.30.33:282][615]LogAIModule: Creating AISystem for world TransitionMap
+[2015.11.26-17.30.33:282][615]LogPlayLevel: PIE: World Init took: (0.000965s)
+[2015.11.26-17.30.33:282][615]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TransitionMap.TransitionMap to /Game/UEDPIE_0_TransitionMap.TransitionMap (0.033589s)
+[2015.11.26-17.30.33:283][615]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2015.11.26-17.30.33:315][615]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.26-17.30.33:322][615]LogInit: FAudioDevice initialized.
+[2015.11.26-17.30.33:375][615]LogWorld: Game class is 'SW_Project2GameMode'
+[2015.11.26-17.30.33:437][615]LogWorld: Bringing World /Game/UEDPIE_0_TransitionMap.TransitionMap up for play (max tick rate 0) at 2015.11.26-18.30.33
+[2015.11.26-17.30.33:437][615]LogActor:Warning: GameSession /Game/UEDPIE_0_TransitionMap.TransitionMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.26-17.30.33:438][615]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_TransitionMap.TransitionMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.26-17.30.33:440][615]LogWorld: Bringing up level for play took: 0.064199
+[2015.11.26-17.30.33:468][615]PIE: Info Play in editor start time for /Game/UEDPIE_0_TransitionMap -0.037
+[2015.11.26-17.30.33:469][615]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TransitionMap.TransitionMap:PersistentLevel' has LevelScriptBlueprint '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap' with GeneratedClass '/Game/TransitionMap.TransitionMap_C' with ClassGeneratedBy '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap'
+[2015.11.26-17.30.49:194][941]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TransitionMap.TransitionMap:PersistentLevel' has LevelScriptBlueprint '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap' with GeneratedClass '/Game/TransitionMap.TransitionMap_C' with ClassGeneratedBy '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap'
+[2015.11.26-17.30.49:294][941]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TransitionMap.TransitionMap:PersistentLevel' has LevelScriptBlueprint '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap' with GeneratedClass '/Game/TransitionMap.TransitionMap_C' with ClassGeneratedBy '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap'
+[2015.11.26-17.30.49:321][941]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DE88840E00
+[2015.11.26-17.30.50:511][960]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkyShereBlueprint)
+[2015.11.26-17.30.51:763][974]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkyShereBlueprint)
+[2015.11.26-17.31.13:654][348]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TransitionMap.TransitionMap:PersistentLevel' has LevelScriptBlueprint '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap' with GeneratedClass '/Game/TransitionMap.TransitionMap_C' with ClassGeneratedBy '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap'
+[2015.11.26-17.31.13:654][348]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.26-17.31.13:655][348]PIE: New page: PIE session: TransitionMap (Nov 26, 2015, 7:31:13 PM)
+[2015.11.26-17.31.13:655][348]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TransitionMap
+[2015.11.26-17.31.13:681][348]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026130s)
+[2015.11.26-17.31.13:681][348]LogAIModule: Creating AISystem for world TransitionMap
+[2015.11.26-17.31.13:682][348]LogPlayLevel: PIE: World Init took: (0.000762s)
+[2015.11.26-17.31.13:682][348]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TransitionMap.TransitionMap to /Game/UEDPIE_0_TransitionMap.TransitionMap (0.027275s)
+[2015.11.26-17.31.13:707][348]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.26-17.31.13:714][348]LogInit: FAudioDevice initialized.
+[2015.11.26-17.31.13:766][348]LogWorld: Game class is 'SW_Project2GameMode'
+[2015.11.26-17.31.13:828][348]LogWorld: Bringing World /Game/UEDPIE_0_TransitionMap.TransitionMap up for play (max tick rate 0) at 2015.11.26-18.31.13
+[2015.11.26-17.31.13:829][348]LogActor:Warning: GameSession /Game/UEDPIE_0_TransitionMap.TransitionMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.26-17.31.13:829][348]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_TransitionMap.TransitionMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.26-17.31.13:831][348]LogWorld: Bringing up level for play took: 0.064191
+[2015.11.26-17.31.13:854][348]PIE: Info Play in editor start time for /Game/UEDPIE_0_TransitionMap 0.349
+[2015.11.26-17.31.13:855][348]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TransitionMap.TransitionMap:PersistentLevel' has LevelScriptBlueprint '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap' with GeneratedClass '/Game/TransitionMap.TransitionMap_C' with ClassGeneratedBy '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap'
+[2015.11.26-17.31.16:230][434]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TransitionMap.TransitionMap:PersistentLevel' has LevelScriptBlueprint '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap' with GeneratedClass '/Game/TransitionMap.TransitionMap_C' with ClassGeneratedBy '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap'
+[2015.11.26-17.31.16:327][434]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TransitionMap.TransitionMap:PersistentLevel' has LevelScriptBlueprint '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap' with GeneratedClass '/Game/TransitionMap.TransitionMap_C' with ClassGeneratedBy '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap'
+[2015.11.26-17.31.16:420][435]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DE9DC5CEA0
+[2015.11.26-17.31.17:333][452]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkyShereBlueprint)
+[2015.11.26-17.31.17:988][462]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkyShereBlueprint)
+[2015.11.26-17.31.18:632][472]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkyShereBlueprint)
+[2015.11.26-17.31.19:180][480]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2015.11.26-17.31.19:887][494]Cmd: DELETE
+[2015.11.26-17.31.19:887][494]Cmd: ACTOR DELETE
+[2015.11.26-17.31.19:889][494]LogEditorActor: Deleted Actor: DirectionalLight
+[2015.11.26-17.31.19:955][494]LogEditorActor: Deleted 1 Actors (0.068 secs)
+[2015.11.26-17.31.25:301][605]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TransitionMap.TransitionMap:PersistentLevel' has LevelScriptBlueprint '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap' with GeneratedClass '/Game/TransitionMap.TransitionMap_C' with ClassGeneratedBy '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap'
+[2015.11.26-17.31.25:302][605]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.26-17.31.25:302][605]PIE: New page: PIE session: TransitionMap (Nov 26, 2015, 7:31:25 PM)
+[2015.11.26-17.31.25:302][605]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TransitionMap
+[2015.11.26-17.31.25:331][605]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029522s)
+[2015.11.26-17.31.25:332][605]LogAIModule: Creating AISystem for world TransitionMap
+[2015.11.26-17.31.25:332][605]LogPlayLevel: PIE: World Init took: (0.000817s)
+[2015.11.26-17.31.25:332][605]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TransitionMap.TransitionMap to /Game/UEDPIE_0_TransitionMap.TransitionMap (0.030708s)
+[2015.11.26-17.31.25:362][605]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.26-17.31.25:370][605]LogInit: FAudioDevice initialized.
+[2015.11.26-17.31.25:426][605]LogWorld: Game class is 'SW_Project2GameMode'
+[2015.11.26-17.31.25:491][605]LogWorld: Bringing World /Game/UEDPIE_0_TransitionMap.TransitionMap up for play (max tick rate 0) at 2015.11.26-18.31.25
+[2015.11.26-17.31.25:491][605]LogActor:Warning: GameSession /Game/UEDPIE_0_TransitionMap.TransitionMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.26-17.31.25:491][605]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_TransitionMap.TransitionMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.26-17.31.25:492][605]LogWorld: Bringing up level for play took: 0.065273
+[2015.11.26-17.31.25:516][605]PIE: Info Play in editor start time for /Game/UEDPIE_0_TransitionMap 0.01
+[2015.11.26-17.31.25:516][605]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TransitionMap.TransitionMap:PersistentLevel' has LevelScriptBlueprint '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap' with GeneratedClass '/Game/TransitionMap.TransitionMap_C' with ClassGeneratedBy '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap'
+[2015.11.26-17.31.28:007][696]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TransitionMap.TransitionMap:PersistentLevel' has LevelScriptBlueprint '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap' with GeneratedClass '/Game/TransitionMap.TransitionMap_C' with ClassGeneratedBy '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap'
+[2015.11.26-17.31.28:105][696]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TransitionMap.TransitionMap:PersistentLevel' has LevelScriptBlueprint '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap' with GeneratedClass '/Game/TransitionMap.TransitionMap_C' with ClassGeneratedBy '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap'
+[2015.11.26-17.31.28:192][697]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DE880939C0
+[2015.11.26-17.31.35:288][848]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TransitionMap.TransitionMap:PersistentLevel' has LevelScriptBlueprint '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap' with GeneratedClass '/Game/TransitionMap.TransitionMap_C' with ClassGeneratedBy '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap'
+[2015.11.26-17.31.35:289][848]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.26-17.31.35:289][848]PIE: New page: PIE session: TransitionMap (Nov 26, 2015, 7:31:35 PM)
+[2015.11.26-17.31.35:289][848]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TransitionMap
+[2015.11.26-17.31.35:315][848]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025896s)
+[2015.11.26-17.31.35:315][848]LogAIModule: Creating AISystem for world TransitionMap
+[2015.11.26-17.31.35:315][848]LogPlayLevel: PIE: World Init took: (0.000728s)
+[2015.11.26-17.31.35:316][848]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TransitionMap.TransitionMap to /Game/UEDPIE_0_TransitionMap.TransitionMap (0.026991s)
+[2015.11.26-17.31.35:342][848]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.26-17.31.35:349][848]LogInit: FAudioDevice initialized.
+[2015.11.26-17.31.35:405][848]LogWorld: Game class is 'SW_Project2GameMode'
+[2015.11.26-17.31.35:473][848]LogWorld: Bringing World /Game/UEDPIE_0_TransitionMap.TransitionMap up for play (max tick rate 0) at 2015.11.26-18.31.35
+[2015.11.26-17.31.35:473][848]LogActor:Warning: GameSession /Game/UEDPIE_0_TransitionMap.TransitionMap:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.26-17.31.35:473][848]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_TransitionMap.TransitionMap:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.26-17.31.35:475][848]LogWorld: Bringing up level for play took: 0.069325
+[2015.11.26-17.31.35:498][848]PIE: Info Play in editor start time for /Game/UEDPIE_0_TransitionMap -0.007
+[2015.11.26-17.31.35:499][848]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TransitionMap.TransitionMap:PersistentLevel' has LevelScriptBlueprint '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap' with GeneratedClass '/Game/TransitionMap.TransitionMap_C' with ClassGeneratedBy '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap'
+[2015.11.26-17.31.41:846][  7]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TransitionMap.TransitionMap:PersistentLevel' has LevelScriptBlueprint '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap' with GeneratedClass '/Game/TransitionMap.TransitionMap_C' with ClassGeneratedBy '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap'
+[2015.11.26-17.31.41:956][  7]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TransitionMap.TransitionMap:PersistentLevel' has LevelScriptBlueprint '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap' with GeneratedClass '/Game/TransitionMap.TransitionMap_C' with ClassGeneratedBy '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap'
+[2015.11.26-17.31.42:043][  8]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DE8A7F37E0
+[2015.11.26-17.31.46:852][112]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TransitionMap.TransitionMap:PersistentLevel' has LevelScriptBlueprint '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap' with GeneratedClass '/Game/TransitionMap.TransitionMap_C' with ClassGeneratedBy '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap'
+[2015.11.26-17.31.46:852][112]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.26-17.31.46:853][112]PIE: New page: PIE session: TransitionMap (Nov 26, 2015, 7:31:46 PM)
+[2015.11.26-17.31.46:853][112]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TransitionMap
+[2015.11.26-17.31.46:879][112]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026153s)
+[2015.11.26-17.31.46:879][112]LogAIModule: Creating AISystem for world TransitionMap
+[2015.11.26-17.31.46:880][112]LogPlayLevel: PIE: World Init took: (0.000730s)
+[2015.11.26-17.31.46:880][112]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TransitionMap.TransitionMap to /Game/UEDPIE_0_TransitionMap.TransitionMap (0.027268s)
+[2015.11.26-17.31.46:911][112]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.26-17.31.46:917][112]LogInit: FAudioDevice initialized.
+[2015.11.26-17.31.46:972][112]LogWorld: Game class is 'SW_Project2GameMode'
+[2015.11.26-17.31.47:040][112]LogWorld: Bringing World /Game/UEDPIE_0_TransitionMap.TransitionMap up for play (max tick rate 0) at 2015.11.26-18.31.47
+[2015.11.26-17.31.47:040][112]LogActor:Warning: GameSession /Game/UEDPIE_0_TransitionMap.TransitionMap:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.26-17.31.47:040][112]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_TransitionMap.TransitionMap:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.26-17.31.47:042][112]LogWorld: Bringing up level for play took: 0.069485
+[2015.11.26-17.31.47:066][112]PIE: Info Play in editor start time for /Game/UEDPIE_0_TransitionMap -0.44
+[2015.11.26-17.31.47:066][112]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TransitionMap.TransitionMap:PersistentLevel' has LevelScriptBlueprint '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap' with GeneratedClass '/Game/TransitionMap.TransitionMap_C' with ClassGeneratedBy '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap'
+[2015.11.26-17.31.49:072][191]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TransitionMap.TransitionMap:PersistentLevel' has LevelScriptBlueprint '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap' with GeneratedClass '/Game/TransitionMap.TransitionMap_C' with ClassGeneratedBy '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap'
+[2015.11.26-17.31.49:171][191]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TransitionMap.TransitionMap:PersistentLevel' has LevelScriptBlueprint '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap' with GeneratedClass '/Game/TransitionMap.TransitionMap_C' with ClassGeneratedBy '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap'
+[2015.11.26-17.31.49:258][192]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DE9ED0C860
+[2015.11.26-17.34.42:434][448]Cmd: SELECT NONE
+[2015.11.26-17.34.44:570][490]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkyShereBlueprint)
+[2015.11.26-17.34.52:026][668]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TransitionMap" FILE="../../../../../../Users/Stoffe/Documents/GitHub/SW_Project/SW_Project2/Content/TransitionMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.11.26-17.34.52:339][668]LogSavePackage: Save=284.829132ms
+[2015.11.26-17.34.52:339][668]LogSavePackage: Moving '../../../../../../Users/Stoffe/Documents/GitHub/SW_Project/SW_Project2/Saved/TransitionMap698495E548946B285D5CADA62302B217.tmp' to '../../../../../../Users/Stoffe/Documents/GitHub/SW_Project/SW_Project2/Content/TransitionMap.umap'
+[2015.11.26-17.34.52:366][668]LogSavePackage: Total save time: 318.931151ms
+[2015.11.26-17.34.52:366][668]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Stoffe/Documents/GitHub/SW_Project/SW_Project2/Content/TransitionMap.umap
+[2015.11.26-17.34.53:640][690]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TransitionMap.TransitionMap:PersistentLevel' has LevelScriptBlueprint '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap' with GeneratedClass '/Game/TransitionMap.TransitionMap_C' with ClassGeneratedBy '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap'
+[2015.11.26-17.34.53:640][690]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.26-17.34.53:640][690]PIE: New page: PIE session: TransitionMap (Nov 26, 2015, 7:34:53 PM)
+[2015.11.26-17.34.53:640][690]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TransitionMap
+[2015.11.26-17.34.53:663][690]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022535s)
+[2015.11.26-17.34.53:663][690]LogAIModule: Creating AISystem for world TransitionMap
+[2015.11.26-17.34.53:664][690]LogPlayLevel: PIE: World Init took: (0.000741s)
+[2015.11.26-17.34.53:664][690]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TransitionMap.TransitionMap to /Game/UEDPIE_0_TransitionMap.TransitionMap (0.023588s)
+[2015.11.26-17.34.53:687][690]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.26-17.34.53:694][690]LogInit: FAudioDevice initialized.
+[2015.11.26-17.34.53:746][690]LogWorld: Game class is 'SW_Project2GameMode'
+[2015.11.26-17.34.53:800][690]LogWorld: Bringing World /Game/UEDPIE_0_TransitionMap.TransitionMap up for play (max tick rate 0) at 2015.11.26-18.34.53
+[2015.11.26-17.34.53:800][690]LogActor:Warning: GameSession /Game/UEDPIE_0_TransitionMap.TransitionMap:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.26-17.34.53:800][690]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_TransitionMap.TransitionMap:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.26-17.34.53:802][690]LogWorld: Bringing up level for play took: 0.054922
+[2015.11.26-17.34.53:825][690]PIE: Info Play in editor start time for /Game/UEDPIE_0_TransitionMap 0.319
+[2015.11.26-17.34.53:825][690]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TransitionMap.TransitionMap:PersistentLevel' has LevelScriptBlueprint '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap' with GeneratedClass '/Game/TransitionMap.TransitionMap_C' with ClassGeneratedBy '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap'
+[2015.11.26-17.34.55:046][745]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TransitionMap.TransitionMap:PersistentLevel' has LevelScriptBlueprint '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap' with GeneratedClass '/Game/TransitionMap.TransitionMap_C' with ClassGeneratedBy '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap'
+[2015.11.26-17.34.55:115][745]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TransitionMap.TransitionMap:PersistentLevel' has LevelScriptBlueprint '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap' with GeneratedClass '/Game/TransitionMap.TransitionMap_C' with ClassGeneratedBy '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap'
+[2015.11.26-17.34.55:139][745]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DE87F8F560
+[2015.11.26-17.35.19:089][189]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TransitionMap.TransitionMap:PersistentLevel' has LevelScriptBlueprint '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap' with GeneratedClass '/Game/TransitionMap.TransitionMap_C' with ClassGeneratedBy '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap'
+[2015.11.26-17.35.19:090][189]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.26-17.35.19:090][189]PIE: New page: PIE session: TransitionMap (Nov 26, 2015, 7:35:19 PM)
+[2015.11.26-17.35.19:090][189]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TransitionMap
+[2015.11.26-17.35.19:117][189]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027254s)
+[2015.11.26-17.35.19:118][189]LogAIModule: Creating AISystem for world TransitionMap
+[2015.11.26-17.35.19:118][189]LogPlayLevel: PIE: World Init took: (0.000726s)
+[2015.11.26-17.35.19:118][189]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TransitionMap.TransitionMap to /Game/UEDPIE_0_TransitionMap.TransitionMap (0.028340s)
+[2015.11.26-17.35.19:148][189]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.26-17.35.19:157][189]LogInit: FAudioDevice initialized.
+[2015.11.26-17.35.19:211][189]LogWorld: Game class is 'SW_Project2GameMode'
+[2015.11.26-17.35.19:274][189]LogWorld: Bringing World /Game/UEDPIE_0_TransitionMap.TransitionMap up for play (max tick rate 0) at 2015.11.26-18.35.19
+[2015.11.26-17.35.19:274][189]LogActor:Warning: GameSession /Game/UEDPIE_0_TransitionMap.TransitionMap:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.26-17.35.19:275][189]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_TransitionMap.TransitionMap:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.26-17.35.19:277][189]LogWorld: Bringing up level for play took: 0.065001
+[2015.11.26-17.35.19:302][189]PIE: Info Play in editor start time for /Game/UEDPIE_0_TransitionMap -0.204
+[2015.11.26-17.35.19:302][189]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TransitionMap.TransitionMap:PersistentLevel' has LevelScriptBlueprint '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap' with GeneratedClass '/Game/TransitionMap.TransitionMap_C' with ClassGeneratedBy '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap'
+[2015.11.26-17.35.23:688][311]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TransitionMap.TransitionMap:PersistentLevel' has LevelScriptBlueprint '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap' with GeneratedClass '/Game/TransitionMap.TransitionMap_C' with ClassGeneratedBy '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap'
+[2015.11.26-17.35.23:808][311]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TransitionMap.TransitionMap:PersistentLevel' has LevelScriptBlueprint '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap' with GeneratedClass '/Game/TransitionMap.TransitionMap_C' with ClassGeneratedBy '/Game/TransitionMap.TransitionMap:PersistentLevel.TransitionMap'
+[2015.11.26-17.35.23:902][312]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DE88AD3EC0
+[2015.11.26-17.35.25:059][328]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TransitionMap" FILE="../../../../../../Users/Stoffe/Documents/GitHub/SW_Project/SW_Project2/Content/TransitionMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.11.26-17.35.25:360][328]LogSavePackage: Save=272.722748ms
+[2015.11.26-17.35.25:360][328]LogSavePackage: Moving '../../../../../../Users/Stoffe/Documents/GitHub/SW_Project/SW_Project2/Saved/TransitionMapA62028EA4D15D5A5F5DD0CA327D1BE17.tmp' to '../../../../../../Users/Stoffe/Documents/GitHub/SW_Project/SW_Project2/Content/TransitionMap.umap'
+[2015.11.26-17.35.25:361][328]LogSavePackage: Total save time: 280.222099ms
+[2015.11.26-17.35.25:361][328]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Stoffe/Documents/GitHub/SW_Project/SW_Project2/Content/TransitionMap.umap
+[2015.11.26-17.35.25:399][328]LogFileHelpers: Saving map 'TransitionMap' took 0.385
+[2015.11.26-17.35.27:571][358]LogAIModule: Creating AISystem for world Map2
+[2015.11.26-17.35.27:572][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light2_6.ParticleSystemComponent0
+[2015.11.26-17.35.27:572][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light3_9.ParticleSystemComponent0
+[2015.11.26-17.35.27:572][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light4_12.ParticleSystemComponent0
+[2015.11.26-17.35.27:572][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light6_18.ParticleSystemComponent0
+[2015.11.26-17.35.27:572][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light12_39.ParticleSystemComponent0
+[2015.11.26-17.35.27:572][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light16.ParticleSystemComponent0
+[2015.11.26-17.35.27:572][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light17.ParticleSystemComponent0
+[2015.11.26-17.35.27:573][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light23.ParticleSystemComponent0
+[2015.11.26-17.35.27:573][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light27.ParticleSystemComponent0
+[2015.11.26-17.35.27:573][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light30.ParticleSystemComponent0
+[2015.11.26-17.35.27:573][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light35.ParticleSystemComponent0
+[2015.11.26-17.35.27:573][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light37.ParticleSystemComponent0
+[2015.11.26-17.35.27:573][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light40.ParticleSystemComponent0
+[2015.11.26-17.35.27:573][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light41.ParticleSystemComponent0
+[2015.11.26-17.35.27:574][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light7.ParticleSystemComponent0
+[2015.11.26-17.35.27:574][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light5.ParticleSystemComponent0
+[2015.11.26-17.35.27:574][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light8.ParticleSystemComponent0
+[2015.11.26-17.35.27:574][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light9.ParticleSystemComponent0
+[2015.11.26-17.35.27:574][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light10.ParticleSystemComponent0
+[2015.11.26-17.35.27:575][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light13.ParticleSystemComponent0
+[2015.11.26-17.35.27:575][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light18_92.ParticleSystemComponent0
+[2015.11.26-17.35.27:575][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light19_93.ParticleSystemComponent0
+[2015.11.26-17.35.27:575][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light24_94.ParticleSystemComponent0
+[2015.11.26-17.35.27:575][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light28_95.ParticleSystemComponent0
+[2015.11.26-17.35.27:575][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light31_96.ParticleSystemComponent0
+[2015.11.26-17.35.27:575][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light36_97.ParticleSystemComponent0
+[2015.11.26-17.35.27:575][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light38_98.ParticleSystemComponent0
+[2015.11.26-17.35.27:575][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light42_99.ParticleSystemComponent0
+[2015.11.26-17.35.27:576][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light43.ParticleSystemComponent0
+[2015.11.26-17.35.27:576][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light11.ParticleSystemComponent0
+[2015.11.26-17.35.27:576][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light14.ParticleSystemComponent0
+[2015.11.26-17.35.27:576][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light15_102.ParticleSystemComponent0
+[2015.11.26-17.35.27:576][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light20_104.ParticleSystemComponent0
+[2015.11.26-17.35.27:576][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light21_106.ParticleSystemComponent0
+[2015.11.26-17.35.27:576][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light22_108.ParticleSystemComponent0
+[2015.11.26-17.35.27:576][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light25_110.ParticleSystemComponent0
+[2015.11.26-17.35.27:577][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light39_112.ParticleSystemComponent0
+[2015.11.26-17.35.27:577][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light44.ParticleSystemComponent0
+[2015.11.26-17.35.27:577][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light45.ParticleSystemComponent0
+[2015.11.26-17.35.27:579][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light26_154.ParticleSystemComponent0
+[2015.11.26-17.35.27:579][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light29_155.ParticleSystemComponent0
+[2015.11.26-17.35.27:579][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light32_156.ParticleSystemComponent0
+[2015.11.26-17.35.27:579][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light33_157.ParticleSystemComponent0
+[2015.11.26-17.35.27:580][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light34_158.ParticleSystemComponent0
+[2015.11.26-17.35.27:580][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light46.ParticleSystemComponent0
+[2015.11.26-17.35.27:580][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light47.ParticleSystemComponent0
+[2015.11.26-17.35.27:580][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light48.ParticleSystemComponent0
+[2015.11.26-17.35.27:580][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light49.ParticleSystemComponent0
+[2015.11.26-17.35.27:580][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light50.ParticleSystemComponent0
+[2015.11.26-17.35.27:580][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light51.ParticleSystemComponent0
+[2015.11.26-17.35.27:580][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light52.ParticleSystemComponent0
+[2015.11.26-17.35.27:581][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light53.ParticleSystemComponent0
+[2015.11.26-17.35.27:581][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light54.ParticleSystemComponent0
+[2015.11.26-17.35.27:581][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light55.ParticleSystemComponent0
+[2015.11.26-17.35.27:581][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light56.ParticleSystemComponent0
+[2015.11.26-17.35.27:581][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light57.ParticleSystemComponent0
+[2015.11.26-17.35.27:581][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light58.ParticleSystemComponent0
+[2015.11.26-17.35.27:581][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light59.ParticleSystemComponent0
+[2015.11.26-17.35.27:581][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light60.ParticleSystemComponent0
+[2015.11.26-17.35.27:581][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light61.ParticleSystemComponent0
+[2015.11.26-17.35.27:582][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light62.ParticleSystemComponent0
+[2015.11.26-17.35.27:582][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light63.ParticleSystemComponent0
+[2015.11.26-17.35.27:582][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light64.ParticleSystemComponent0
+[2015.11.26-17.35.27:582][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light65.ParticleSystemComponent0
+[2015.11.26-17.35.27:582][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light66.ParticleSystemComponent0
+[2015.11.26-17.35.27:582][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light67.ParticleSystemComponent0
+[2015.11.26-17.35.27:582][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light68.ParticleSystemComponent0
+[2015.11.26-17.35.27:582][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light69.ParticleSystemComponent0
+[2015.11.26-17.35.27:582][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light70.ParticleSystemComponent0
+[2015.11.26-17.35.27:583][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light71.ParticleSystemComponent0
+[2015.11.26-17.35.27:583][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light72.ParticleSystemComponent0
+[2015.11.26-17.35.27:583][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light73.ParticleSystemComponent0
+[2015.11.26-17.35.27:583][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light74.ParticleSystemComponent0
+[2015.11.26-17.35.27:583][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light75.ParticleSystemComponent0
+[2015.11.26-17.35.27:583][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light76.ParticleSystemComponent0
+[2015.11.26-17.35.27:583][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light77.ParticleSystemComponent0
+[2015.11.26-17.35.27:583][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light78.ParticleSystemComponent0
+[2015.11.26-17.35.27:583][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light79.ParticleSystemComponent0
+[2015.11.26-17.35.27:583][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light80.ParticleSystemComponent0
+[2015.11.26-17.35.27:584][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light81.ParticleSystemComponent0
+[2015.11.26-17.35.27:584][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light82.ParticleSystemComponent0
+[2015.11.26-17.35.27:584][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light83.ParticleSystemComponent0
+[2015.11.26-17.35.27:584][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light84.ParticleSystemComponent0
+[2015.11.26-17.35.27:584][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light85.ParticleSystemComponent0
+[2015.11.26-17.35.27:584][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light86.ParticleSystemComponent0
+[2015.11.26-17.35.27:584][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light87.ParticleSystemComponent0
+[2015.11.26-17.35.27:584][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light88.ParticleSystemComponent0
+[2015.11.26-17.35.27:584][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light89.ParticleSystemComponent0
+[2015.11.26-17.35.27:585][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light90.ParticleSystemComponent0
+[2015.11.26-17.35.27:585][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light91.ParticleSystemComponent0
+[2015.11.26-17.35.27:585][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light92.ParticleSystemComponent0
+[2015.11.26-17.35.27:585][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light93.ParticleSystemComponent0
+[2015.11.26-17.35.27:585][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light94.ParticleSystemComponent0
+[2015.11.26-17.35.27:585][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light95.ParticleSystemComponent0
+[2015.11.26-17.35.27:586][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light96.ParticleSystemComponent0
+[2015.11.26-17.35.27:586][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light97.ParticleSystemComponent0
+[2015.11.26-17.35.27:586][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light98.ParticleSystemComponent0
+[2015.11.26-17.35.27:586][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light99.ParticleSystemComponent0
+[2015.11.26-17.35.27:586][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light100.ParticleSystemComponent0
+[2015.11.26-17.35.27:586][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light101.ParticleSystemComponent0
+[2015.11.26-17.35.27:586][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light102.ParticleSystemComponent0
+[2015.11.26-17.35.27:587][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light103.ParticleSystemComponent0
+[2015.11.26-17.35.27:587][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light104.ParticleSystemComponent0
+[2015.11.26-17.35.27:587][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light105.ParticleSystemComponent0
+[2015.11.26-17.35.27:587][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light106.ParticleSystemComponent0
+[2015.11.26-17.35.27:587][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light107.ParticleSystemComponent0
+[2015.11.26-17.35.27:587][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light108.ParticleSystemComponent0
+[2015.11.26-17.35.27:587][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light109.ParticleSystemComponent0
+[2015.11.26-17.35.27:587][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light110.ParticleSystemComponent0
+[2015.11.26-17.35.27:587][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light111.ParticleSystemComponent0
+[2015.11.26-17.35.27:588][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light112.ParticleSystemComponent0
+[2015.11.26-17.35.27:588][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light113.ParticleSystemComponent0
+[2015.11.26-17.35.27:588][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light114.ParticleSystemComponent0
+[2015.11.26-17.35.27:588][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light115.ParticleSystemComponent0
+[2015.11.26-17.35.27:588][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light116.ParticleSystemComponent0
+[2015.11.26-17.35.27:588][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light117.ParticleSystemComponent0
+[2015.11.26-17.35.27:588][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light118.ParticleSystemComponent0
+[2015.11.26-17.35.27:588][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light119.ParticleSystemComponent0
+[2015.11.26-17.35.27:588][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light120.ParticleSystemComponent0
+[2015.11.26-17.35.27:589][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light121.ParticleSystemComponent0
+[2015.11.26-17.35.27:589][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light122.ParticleSystemComponent0
+[2015.11.26-17.35.27:589][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light123.ParticleSystemComponent0
+[2015.11.26-17.35.27:589][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light124.ParticleSystemComponent0
+[2015.11.26-17.35.27:589][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light125.ParticleSystemComponent0
+[2015.11.26-17.35.27:589][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light126.ParticleSystemComponent0
+[2015.11.26-17.35.27:589][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light127.ParticleSystemComponent0
+[2015.11.26-17.35.27:589][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light128.ParticleSystemComponent0
+[2015.11.26-17.35.27:589][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light129.ParticleSystemComponent0
+[2015.11.26-17.35.27:589][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light130.ParticleSystemComponent0
+[2015.11.26-17.35.27:590][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light131.ParticleSystemComponent0
+[2015.11.26-17.35.27:590][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light132.ParticleSystemComponent0
+[2015.11.26-17.35.27:590][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light133.ParticleSystemComponent0
+[2015.11.26-17.35.27:590][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light134.ParticleSystemComponent0
+[2015.11.26-17.35.27:590][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light135.ParticleSystemComponent0
+[2015.11.26-17.35.27:590][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light136.ParticleSystemComponent0
+[2015.11.26-17.35.27:590][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light137.ParticleSystemComponent0
+[2015.11.26-17.35.27:590][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light138.ParticleSystemComponent0
+[2015.11.26-17.35.27:591][358]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/light.light Component=/Game/Map2.Map2:PersistentLevel.light139.ParticleSystemComponent0
+[2015.11.26-17.35.27:599][358]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2015.11.26-17.35.27:627][358]Cmd: MAP LOAD FILE="../../../../../../Users/Stoffe/Documents/GitHub/SW_Project/SW_Project2/Content/Map2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.26-17.35.27:627][358]LightingResults: New page: Lighting Build
+[2015.11.26-17.35.27:650][358]LoadErrors: New page: Loading map: Map2.umap
+[2015.11.26-17.35.27:655][358]MapCheck: New page: Map Check
+[2015.11.26-17.35.27:655][358]LightingResults: New page: Lighting Build
+[2015.11.26-17.35.27:677][358]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DE8777EAC0
+[2015.11.26-17.35.27:741][358]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.26-17.35.27:783][358]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.26-17.35.27:831][358]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.88ms to complete.
+[2015.11.26-17.35.27:832][358]LogFileHelpers: Loading map 'Map2' took 0.210
+[2015.11.26-17.35.39:263][704]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkyShereBlueprint)
+[2015.11.26-17.36.02:817][ 92]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map2.Map2:PersistentLevel' has LevelScriptBlueprint '/Game/Map2.Map2:PersistentLevel.Map2' with GeneratedClass '/Game/Map2.Map2_C' with ClassGeneratedBy '/Game/Map2.Map2:PersistentLevel.Map2'
+[2015.11.26-17.36.02:818][ 92]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.26-17.36.02:818][ 92]PIE: New page: PIE session: Map2 (Nov 26, 2015, 7:36:02 PM)
+[2015.11.26-17.36.02:818][ 92]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Map2
+[2015.11.26-17.36.02:842][ 92]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024556s)
+[2015.11.26-17.36.02:843][ 92]LogAIModule: Creating AISystem for world Map2
+[2015.11.26-17.36.02:843][ 92]LogPlayLevel: PIE: World Init took: (0.000838s)
+[2015.11.26-17.36.02:844][ 92]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map2.Map2 to /Game/UEDPIE_0_Map2.Map2 (0.025759s)
+[2015.11.26-17.36.02:844][ 92]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2015.11.26-17.36.02:870][ 92]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.26-17.36.02:877][ 92]LogInit: FAudioDevice initialized.
+[2015.11.26-17.36.02:932][ 92]LogWorld: Game class is 'SW_Project2GameMode'
+[2015.11.26-17.36.02:995][ 92]LogWorld: Bringing World /Game/UEDPIE_0_Map2.Map2 up for play (max tick rate 0) at 2015.11.26-18.36.02
+[2015.11.26-17.36.02:995][ 92]LogActor:Warning: GameSession /Game/UEDPIE_0_Map2.Map2:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.26-17.36.02:995][ 92]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Map2.Map2:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.26-17.36.02:997][ 92]LogWorld: Bringing up level for play took: 0.063887
+[2015.11.26-17.36.03:023][ 92]PIE: Info Play in editor start time for /Game/UEDPIE_0_Map2 -0.484
+[2015.11.26-17.36.03:023][ 92]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map2.Map2:PersistentLevel' has LevelScriptBlueprint '/Game/Map2.Map2:PersistentLevel.Map2' with GeneratedClass '/Game/Map2.Map2_C' with ClassGeneratedBy '/Game/Map2.Map2:PersistentLevel.Map2'
+[2015.11.26-17.36.07:591][216]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map2.Map2:PersistentLevel' has LevelScriptBlueprint '/Game/Map2.Map2:PersistentLevel.Map2' with GeneratedClass '/Game/Map2.Map2_C' with ClassGeneratedBy '/Game/Map2.Map2:PersistentLevel.Map2'
+[2015.11.26-17.36.07:712][216]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map2.Map2:PersistentLevel' has LevelScriptBlueprint '/Game/Map2.Map2:PersistentLevel.Map2' with GeneratedClass '/Game/Map2.Map2_C' with ClassGeneratedBy '/Game/Map2.Map2:PersistentLevel.Map2'
+[2015.11.26-17.36.07:741][216]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DEB0BBF2E0
+[2015.11.26-17.36.10:072][253]LogVSAccessor:Warning: Couldn't access Visual Studio
+[2015.11.26-17.36.10:080][253]Recompiling SW_Project2...
+[2015.11.26-17.36.10:080][253]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe SW_Project2 -ModuleWithSuffix SW_Project2 1253 Win64 Development -editorrecompile -canskiplink "C:/Users/Stoffe/Documents/GitHub/SW_Project/SW_Project2/SW_Project2.uproject" -rocket  -rocket]
+[2015.11.26-17.36.10:081][253]Warning: Starting HotReload took  0.0s.
+[2015.11.26-17.36.15:300][407]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map2" FILE="../../../../../../Users/Stoffe/Documents/GitHub/SW_Project/SW_Project2/Content/Map2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.11.26-17.36.15:639][407]LogSavePackage: Save=308.692780ms
+[2015.11.26-17.36.15:640][407]LogSavePackage: Moving '../../../../../../Users/Stoffe/Documents/GitHub/SW_Project/SW_Project2/Saved/Map2308C4CCF42673EB74876199260C691F5.tmp' to '../../../../../../Users/Stoffe/Documents/GitHub/SW_Project/SW_Project2/Content/Map2.umap'
+[2015.11.26-17.36.15:642][407]LogSavePackage: Total save time: 318.045866ms
+[2015.11.26-17.36.15:642][407]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Stoffe/Documents/GitHub/SW_Project/SW_Project2/Content/Map2.umap
+[2015.11.26-17.36.15:687][407]LogFileHelpers: Saving map 'Map2' took 0.438
+[2015.11.26-17.36.23:362][506]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkyShereBlueprint)
+[2015.11.26-17.37.57:733][932]CompilerResultsLog: New page: Compilation - Nov 26, 2015, 7:37:57 PM
+[2015.11.26-17.37.57:733][932]CompilerResultsLog: Info Creating makefile for hot reloading SW_Project2 (game project files are newer)
+[2015.11.26-17.37.57:733][932]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.11.26-17.37.57:733][932]CompilerResultsLog: Info Parsing headers for SW_Project2Editor
+[2015.11.26-17.37.57:733][932]CompilerResultsLog: Info   Running UnrealHeaderTool "C:/Users/Stoffe/Documents/GitHub/SW_Project/SW_Project2/SW_Project2.uproject" "C:\Users\Stoffe\Documents\GitHub\SW_Project\SW_Project2\Intermediate\Build\Win64\SW_Project2Editor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
+[2015.11.26-17.37.57:733][932]CompilerResultsLog: Info Reflection code generated for SW_Project2Editor in 15,0089357 seconds
+[2015.11.26-17.37.57:734][932]CompilerResultsLog: Info Performing 13 actions (2 in parallel)
+[2015.11.26-17.37.57:734][932]CompilerResultsLog: Info [2/13] Resource PCLaunch.rc
+[2015.11.26-17.37.57:734][932]CompilerResultsLog: Info PCH.SW_Project2.h.cpp
+[2015.11.26-17.37.57:734][932]CompilerResultsLog: Info [3/13] Resource ModuleVersionResource.rc.inl
+[2015.11.26-17.37.57:734][932]CompilerResultsLog: Info CameraDirector.cpp
+[2015.11.26-17.37.57:734][932]CompilerResultsLog: Info Block.cpp
+[2015.11.26-17.37.57:734][932]CompilerResultsLog: Info MyHUD.cpp
+[2015.11.26-17.37.57:734][932]CompilerResultsLog: Info Pickup.cpp
+[2015.11.26-17.37.57:734][932]CompilerResultsLog: Info Projectile.cpp
+[2015.11.26-17.37.57:734][932]CompilerResultsLog: Info SW_Project2.cpp
+[2015.11.26-17.37.57:734][932]CompilerResultsLog: Info SW_Project2GameMode.cpp
+[2015.11.26-17.37.57:734][932]CompilerResultsLog: Info SW_Project2Pawn.cpp
+[2015.11.26-17.37.57:734][932]CompilerResultsLog: Info SW_Project2.generated.cpp
+[2015.11.26-17.37.57:734][932]CompilerResultsLog: Info [13/13] Link UE4Editor-SW_Project2-1253.dll
+[2015.11.26-17.37.57:734][932]CompilerResultsLog: Info    Creating library C:\Users\Stoffe\Documents\GitHub\SW_Project\SW_Project2\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-SW_Project2-1253.lib and object C:\Users\Stoffe\Documents\GitHub\SW_Project\SW_Project2\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-SW_Project2-1253.exp
+[2015.11.26-17.37.57:734][932]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2015.11.26-17.37.57:734][932]CompilerResultsLog: Info Total build time: 107,62 seconds
+[2015.11.26-17.37.57:734][932]LogMainFrame: MainFrame: Module compiling took 107.663 seconds
+[2015.11.26-17.37.57:735][932]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2015.11.26-17.37.57:824][932]LogContentBrowser: Native class hierarchy updated for 'SW_Project2' in 0.0017 seconds. Added 7 classes and 2 folders.
+[2015.11.26-17.37.57:826][932]Warning: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2015.11.26-17.37.57:905][932]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 1875 classes and 337 folders.
+[2015.11.26-17.38.00:460][971]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map2.Map2:PersistentLevel' has LevelScriptBlueprint '/Game/Map2.Map2:PersistentLevel.Map2' with GeneratedClass '/Game/Map2.Map2_C' with ClassGeneratedBy '/Game/Map2.Map2:PersistentLevel.Map2'
+[2015.11.26-17.38.00:460][971]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.26-17.38.00:460][971]PIE: New page: PIE session: Map2 (Nov 26, 2015, 7:38:00 PM)
+[2015.11.26-17.38.00:460][971]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Map2
+[2015.11.26-17.38.00:482][971]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022135s)
+[2015.11.26-17.38.00:483][971]LogAIModule: Creating AISystem for world Map2
+[2015.11.26-17.38.00:483][971]LogPlayLevel: PIE: World Init took: (0.000737s)
+[2015.11.26-17.38.00:483][971]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map2.Map2 to /Game/UEDPIE_0_Map2.Map2 (0.023158s)
+[2015.11.26-17.38.00:483][971]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2015.11.26-17.38.00:508][971]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.26-17.38.00:514][971]LogInit: FAudioDevice initialized.
+[2015.11.26-17.38.00:569][971]LogWorld: Game class is 'SW_Project2GameMode'
+[2015.11.26-17.38.00:633][971]LogWorld: Bringing World /Game/UEDPIE_0_Map2.Map2 up for play (max tick rate 0) at 2015.11.26-18.38.00
+[2015.11.26-17.38.00:633][971]LogActor:Warning: GameSession /Game/UEDPIE_0_Map2.Map2:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.26-17.38.00:633][971]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Map2.Map2:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.26-17.38.00:635][971]LogWorld: Bringing up level for play took: 0.065862
+[2015.11.26-17.38.00:672][971]PIE: Info Play in editor start time for /Game/UEDPIE_0_Map2 1.167
+[2015.11.26-17.38.00:672][971]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map2.Map2:PersistentLevel' has LevelScriptBlueprint '/Game/Map2.Map2:PersistentLevel.Map2' with GeneratedClass '/Game/Map2.Map2_C' with ClassGeneratedBy '/Game/Map2.Map2:PersistentLevel.Map2'
+[2015.11.26-17.38.04:759][ 85]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map2.Map2:PersistentLevel' has LevelScriptBlueprint '/Game/Map2.Map2:PersistentLevel.Map2' with GeneratedClass '/Game/Map2.Map2_C' with ClassGeneratedBy '/Game/Map2.Map2:PersistentLevel.Map2'
+[2015.11.26-17.38.04:862][ 85]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map2.Map2:PersistentLevel' has LevelScriptBlueprint '/Game/Map2.Map2:PersistentLevel.Map2' with GeneratedClass '/Game/Map2.Map2_C' with ClassGeneratedBy '/Game/Map2.Map2:PersistentLevel.Map2'
+[2015.11.26-17.38.04:889][ 85]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DEB1CE84A0
+[2015.11.26-17.38.10:888][180]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map2.Map2:PersistentLevel' has LevelScriptBlueprint '/Game/Map2.Map2:PersistentLevel.Map2' with GeneratedClass '/Game/Map2.Map2_C' with ClassGeneratedBy '/Game/Map2.Map2:PersistentLevel.Map2'
+[2015.11.26-17.38.10:888][180]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.26-17.38.10:888][180]PIE: New page: PIE session: Map2 (Nov 26, 2015, 7:38:10 PM)
+[2015.11.26-17.38.10:888][180]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Map2
+[2015.11.26-17.38.10:914][180]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025307s)
+[2015.11.26-17.38.10:914][180]LogAIModule: Creating AISystem for world Map2
+[2015.11.26-17.38.10:915][180]LogPlayLevel: PIE: World Init took: (0.000861s)
+[2015.11.26-17.38.10:915][180]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map2.Map2 to /Game/UEDPIE_0_Map2.Map2 (0.026542s)
+[2015.11.26-17.38.10:945][180]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.26-17.38.10:951][180]LogInit: FAudioDevice initialized.
+[2015.11.26-17.38.11:008][180]LogWorld: Game class is 'SW_Project2GameMode'
+[2015.11.26-17.38.11:076][180]LogWorld: Bringing World /Game/UEDPIE_0_Map2.Map2 up for play (max tick rate 0) at 2015.11.26-18.38.11
+[2015.11.26-17.38.11:076][180]LogActor:Warning: GameSession /Game/UEDPIE_0_Map2.Map2:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.26-17.38.11:076][180]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Map2.Map2:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.26-17.38.11:078][180]LogWorld: Bringing up level for play took: 0.069277
+[2015.11.26-17.38.11:105][180]PIE: Info Play in editor start time for /Game/UEDPIE_0_Map2 -0.4
+[2015.11.26-17.38.11:106][180]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map2.Map2:PersistentLevel' has LevelScriptBlueprint '/Game/Map2.Map2:PersistentLevel.Map2' with GeneratedClass '/Game/Map2.Map2_C' with ClassGeneratedBy '/Game/Map2.Map2:PersistentLevel.Map2'
+[2015.11.26-17.38.54:293][578]LogPackageName: SearchForPackageOnDisk took   0.060s to resolve Map2.umap.
+[2015.11.26-17.38.54:348][578]LogPackageName: SearchForPackageOnDisk took   0.054s to resolve Map2.umap.
+[2015.11.26-17.38.54:348][578]LogNet: Browse: /Game/Map2
+[2015.11.26-17.38.54:348][578]LogLoad: LoadMap: /Game/Map2
+[2015.11.26-17.38.54:381][578]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DE87F1F380
+[2015.11.26-17.38.54:381][578]Cmd: MEM
+[2015.11.26-17.38.54:403][578]LogMemory: Platform Memory Stats for Windows
+[2015.11.26-17.38.54:403][578]LogMemory: Process Physical Memory: 1465.42 MB used, 1532.43 MB peak
+[2015.11.26-17.38.54:403][578]LogMemory: Process Virtual Memory: 1384.11 MB used, 1457.43 MB peak
+[2015.11.26-17.38.54:403][578]LogMemory: Physical Memory: 3422.46 MB used, 8126.94 MB total
+[2015.11.26-17.38.54:403][578]LogMemory: Virtual Memory: 1990.75 MB used, 134217728.00 MB total
+[2015.11.26-17.38.54:403][578]LogMemory: 
+[2015.11.26-17.38.54:403][578]Allocator Stats for TBB: (not implemented)
+[2015.11.26-17.38.54:403][578]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Map2
+[2015.11.26-17.38.54:426][578]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023352s)
+[2015.11.26-17.38.54:427][578]LogAIModule: Creating AISystem for world Map2
+[2015.11.26-17.38.54:427][578]LogPlayLevel: PIE: World Init took: (0.000756s)
+[2015.11.26-17.38.54:427][578]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map2.Map2 to /Game/UEDPIE_0_Map2.Map2 (0.024424s)
+[2015.11.26-17.38.54:427][578]LogWorld: Game class is 'SW_Project2GameMode'
+[2015.11.26-17.38.54:483][578]LogWorld: Bringing World /Game/UEDPIE_0_Map2.Map2 up for play (max tick rate 0) at 2015.11.26-18.38.54
+[2015.11.26-17.38.54:483][578]LogActor:Warning: GameSession /Game/UEDPIE_0_Map2.Map2:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.26-17.38.54:483][578]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Map2.Map2:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.26-17.38.54:485][578]LogWorld: Bringing up level for play took: 0.056693
+[2015.11.26-17.38.54:486][578]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.11.26-17.39.04:129][829]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map2.Map2:PersistentLevel' has LevelScriptBlueprint '/Game/Map2.Map2:PersistentLevel.Map2' with GeneratedClass '/Game/Map2.Map2_C' with ClassGeneratedBy '/Game/Map2.Map2:PersistentLevel.Map2'
+[2015.11.26-17.39.04:242][829]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map2.Map2:PersistentLevel' has LevelScriptBlueprint '/Game/Map2.Map2:PersistentLevel.Map2' with GeneratedClass '/Game/Map2.Map2_C' with ClassGeneratedBy '/Game/Map2.Map2:PersistentLevel.Map2'
+[2015.11.26-17.39.04:340][830]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DE88AD0540
+[2015.11.26-17.39.17:761][115]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map2.Map2:PersistentLevel' has LevelScriptBlueprint '/Game/Map2.Map2:PersistentLevel.Map2' with GeneratedClass '/Game/Map2.Map2_C' with ClassGeneratedBy '/Game/Map2.Map2:PersistentLevel.Map2'
+[2015.11.26-17.39.17:761][115]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.26-17.39.17:761][115]PIE: New page: PIE session: Map2 (Nov 26, 2015, 7:39:17 PM)
+[2015.11.26-17.39.17:761][115]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Map2
+[2015.11.26-17.39.17:785][115]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023719s)
+[2015.11.26-17.39.17:786][115]LogAIModule: Creating AISystem for world Map2
+[2015.11.26-17.39.17:786][115]LogPlayLevel: PIE: World Init took: (0.000736s)
+[2015.11.26-17.39.17:786][115]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map2.Map2 to /Game/UEDPIE_0_Map2.Map2 (0.024842s)
+[2015.11.26-17.39.17:814][115]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.26-17.39.17:821][115]LogInit: FAudioDevice initialized.
+[2015.11.26-17.39.17:877][115]LogWorld: Game class is 'SW_Project2GameMode'
+[2015.11.26-17.39.17:941][115]LogWorld: Bringing World /Game/UEDPIE_0_Map2.Map2 up for play (max tick rate 0) at 2015.11.26-18.39.17
+[2015.11.26-17.39.17:941][115]LogActor:Warning: GameSession /Game/UEDPIE_0_Map2.Map2:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.26-17.39.17:941][115]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Map2.Map2:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.26-17.39.17:944][115]LogWorld: Bringing up level for play took: 0.066546
+[2015.11.26-17.39.17:972][115]PIE: Info Play in editor start time for /Game/UEDPIE_0_Map2 0.466
+[2015.11.26-17.39.17:972][115]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map2.Map2:PersistentLevel' has LevelScriptBlueprint '/Game/Map2.Map2:PersistentLevel.Map2' with GeneratedClass '/Game/Map2.Map2_C' with ClassGeneratedBy '/Game/Map2.Map2:PersistentLevel.Map2'
+[2015.11.26-17.39.26:019][301]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map2.Map2:PersistentLevel' has LevelScriptBlueprint '/Game/Map2.Map2:PersistentLevel.Map2' with GeneratedClass '/Game/Map2.Map2_C' with ClassGeneratedBy '/Game/Map2.Map2:PersistentLevel.Map2'
+[2015.11.26-17.39.26:127][301]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map2.Map2:PersistentLevel' has LevelScriptBlueprint '/Game/Map2.Map2:PersistentLevel.Map2' with GeneratedClass '/Game/Map2.Map2_C' with ClassGeneratedBy '/Game/Map2.Map2:PersistentLevel.Map2'
+[2015.11.26-17.39.26:219][302]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DE9ECAB9C0
+[2015.11.26-17.39.33:483][484]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkyShereBlueprint)
+[2015.11.26-17.39.34:146][497]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkyShereBlueprint)
+[2015.11.26-17.39.37:964][590]LogEditorViewport: Clicking on Actor (LMB): Emitter (light40)
+[2015.11.26-17.39.38:985][619]Cmd: EDIT COPY
+[2015.11.26-17.39.39:912][647]Cmd: EDIT PASTE
+[2015.11.26-17.39.44:099][769]Cmd: EDIT COPY
+[2015.11.26-17.39.44:352][776]Cmd: EDIT PASTE
+[2015.11.26-17.39.49:415][911]Cmd: EDIT COPY
+[2015.11.26-17.39.49:665][917]Cmd: EDIT PASTE
+[2015.11.26-17.39.54:454][ 22]Cmd: EDIT COPY
+[2015.11.26-17.39.54:789][ 29]Cmd: EDIT PASTE
+[2015.11.26-17.39.59:371][127]Cmd: EDIT COPY
+[2015.11.26-17.39.59:632][132]Cmd: EDIT PASTE
+[2015.11.26-17.40.02:252][190]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map2.Map2:PersistentLevel' has LevelScriptBlueprint '/Game/Map2.Map2:PersistentLevel.Map2' with GeneratedClass '/Game/Map2.Map2_C' with ClassGeneratedBy '/Game/Map2.Map2:PersistentLevel.Map2'
+[2015.11.26-17.40.02:252][190]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.26-17.40.02:252][190]PIE: New page: PIE session: Map2 (Nov 26, 2015, 7:40:02 PM)
+[2015.11.26-17.40.02:252][190]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Map2
+[2015.11.26-17.40.02:281][190]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028966s)
+[2015.11.26-17.40.02:282][190]LogAIModule: Creating AISystem for world Map2
+[2015.11.26-17.40.02:282][190]LogPlayLevel: PIE: World Init took: (0.000924s)
+[2015.11.26-17.40.02:282][190]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map2.Map2 to /Game/UEDPIE_0_Map2.Map2 (0.030266s)
+[2015.11.26-17.40.02:309][190]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.26-17.40.02:317][190]LogInit: FAudioDevice initialized.
+[2015.11.26-17.40.02:369][190]LogWorld: Game class is 'SW_Project2GameMode'
+[2015.11.26-17.40.02:437][190]LogWorld: Bringing World /Game/UEDPIE_0_Map2.Map2 up for play (max tick rate 0) at 2015.11.26-18.40.02
+[2015.11.26-17.40.02:437][190]LogActor:Warning: GameSession /Game/UEDPIE_0_Map2.Map2:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.26-17.40.02:438][190]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Map2.Map2:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.26-17.40.02:439][190]LogWorld: Bringing up level for play took: 0.069691
+[2015.11.26-17.40.02:469][190]PIE: Info Play in editor start time for /Game/UEDPIE_0_Map2 0.963
+[2015.11.26-17.40.02:469][190]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map2.Map2:PersistentLevel' has LevelScriptBlueprint '/Game/Map2.Map2:PersistentLevel.Map2' with GeneratedClass '/Game/Map2.Map2_C' with ClassGeneratedBy '/Game/Map2.Map2:PersistentLevel.Map2'
+[2015.11.26-17.40.04:635][271]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map2.Map2:PersistentLevel' has LevelScriptBlueprint '/Game/Map2.Map2:PersistentLevel.Map2' with GeneratedClass '/Game/Map2.Map2_C' with ClassGeneratedBy '/Game/Map2.Map2:PersistentLevel.Map2'
+[2015.11.26-17.40.04:726][271]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map2.Map2:PersistentLevel' has LevelScriptBlueprint '/Game/Map2.Map2:PersistentLevel.Map2' with GeneratedClass '/Game/Map2.Map2_C' with ClassGeneratedBy '/Game/Map2.Map2:PersistentLevel.Map2'
+[2015.11.26-17.40.04:756][271]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DEBCA37B00
+[2015.11.26-17.40.10:381][397]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkyShereBlueprint)
+[2015.11.26-17.40.10:987][411]LogEditorViewport: Clicking on Actor (LMB): Emitter (light141)
+[2015.11.26-17.40.11:567][424]Cmd: EDIT COPY
+[2015.11.26-17.40.11:855][431]Cmd: EDIT PASTE
+[2015.11.26-17.40.19:417][626]Cmd: EDIT COPY
+[2015.11.26-17.40.19:656][633]Cmd: EDIT PASTE
+[2015.11.26-17.40.23:214][726]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkyShereBlueprint)
+[2015.11.26-17.40.23:708][738]LogEditorViewport: Clicking on Actor (LMB): Emitter (light145)
+[2015.11.26-17.40.28:047][855]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map2.Map2:PersistentLevel' has LevelScriptBlueprint '/Game/Map2.Map2:PersistentLevel.Map2' with GeneratedClass '/Game/Map2.Map2_C' with ClassGeneratedBy '/Game/Map2.Map2:PersistentLevel.Map2'
+[2015.11.26-17.40.28:047][855]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.26-17.40.28:047][855]PIE: New page: PIE session: Map2 (Nov 26, 2015, 7:40:28 PM)
+[2015.11.26-17.40.28:047][855]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Map2
+[2015.11.26-17.40.28:072][855]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023729s)
+[2015.11.26-17.40.28:073][855]LogAIModule: Creating AISystem for world Map2
+[2015.11.26-17.40.28:073][855]LogPlayLevel: PIE: World Init took: (0.000736s)
+[2015.11.26-17.40.28:073][855]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map2.Map2 to /Game/UEDPIE_0_Map2.Map2 (0.024829s)
+[2015.11.26-17.40.28:073][855]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2015.11.26-17.40.28:100][855]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.26-17.40.28:107][855]LogInit: FAudioDevice initialized.
+[2015.11.26-17.40.28:166][855]LogWorld: Game class is 'SW_Project2GameMode'
+[2015.11.26-17.40.28:236][855]LogWorld: Bringing World /Game/UEDPIE_0_Map2.Map2 up for play (max tick rate 0) at 2015.11.26-18.40.28
+[2015.11.26-17.40.28:236][855]LogActor:Warning: GameSession /Game/UEDPIE_0_Map2.Map2:PersistentLevel.GameSession_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.26-17.40.28:236][855]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Map2.Map2:PersistentLevel.GameNetworkManager_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.26-17.40.28:238][855]LogWorld: Bringing up level for play took: 0.070922
+[2015.11.26-17.40.28:267][855]PIE: Info Play in editor start time for /Game/UEDPIE_0_Map2 0.761
+[2015.11.26-17.40.28:268][855]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map2.Map2:PersistentLevel' has LevelScriptBlueprint '/Game/Map2.Map2:PersistentLevel.Map2' with GeneratedClass '/Game/Map2.Map2_C' with ClassGeneratedBy '/Game/Map2.Map2:PersistentLevel.Map2'
+[2015.11.26-17.40.39:035][ 82]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map2.Map2:PersistentLevel' has LevelScriptBlueprint '/Game/Map2.Map2:PersistentLevel.Map2' with GeneratedClass '/Game/Map2.Map2_C' with ClassGeneratedBy '/Game/Map2.Map2:PersistentLevel.Map2'
+[2015.11.26-17.40.39:146][ 82]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map2.Map2:PersistentLevel' has LevelScriptBlueprint '/Game/Map2.Map2:PersistentLevel.Map2' with GeneratedClass '/Game/Map2.Map2_C' with ClassGeneratedBy '/Game/Map2.Map2:PersistentLevel.Map2'
+[2015.11.26-17.40.39:176][ 82]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DE9C99A8E0
+[2015.11.26-17.40.50:894][269]LogEditorViewport: Clicking on Actor (LMB): Emitter (light47)
+[2015.11.26-17.41.01:739][458]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map2.Map2:PersistentLevel' has LevelScriptBlueprint '/Game/Map2.Map2:PersistentLevel.Map2' with GeneratedClass '/Game/Map2.Map2_C' with ClassGeneratedBy '/Game/Map2.Map2:PersistentLevel.Map2'
+[2015.11.26-17.41.01:739][458]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.26-17.41.01:739][458]PIE: New page: PIE session: Map2 (Nov 26, 2015, 7:41:01 PM)
+[2015.11.26-17.41.01:739][458]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Map2
+[2015.11.26-17.41.01:765][458]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025844s)
+[2015.11.26-17.41.01:766][458]LogAIModule: Creating AISystem for world Map2
+[2015.11.26-17.41.01:766][458]LogPlayLevel: PIE: World Init took: (0.000819s)
+[2015.11.26-17.41.01:766][458]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map2.Map2 to /Game/UEDPIE_0_Map2.Map2 (0.027027s)
+[2015.11.26-17.41.01:793][458]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.26-17.41.01:800][458]LogInit: FAudioDevice initialized.
+[2015.11.26-17.41.01:853][458]LogWorld: Game class is 'SW_Project2GameMode'
+[2015.11.26-17.41.01:919][458]LogWorld: Bringing World /Game/UEDPIE_0_Map2.Map2 up for play (max tick rate 0) at 2015.11.26-18.41.01
+[2015.11.26-17.41.01:920][458]LogActor:Warning: GameSession /Game/UEDPIE_0_Map2.Map2:PersistentLevel.GameSession_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.26-17.41.01:920][458]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Map2.Map2:PersistentLevel.GameNetworkManager_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.26-17.41.01:922][458]LogWorld: Bringing up level for play took: 0.067527
+[2015.11.26-17.41.01:950][458]PIE: Info Play in editor start time for /Game/UEDPIE_0_Map2 0.444
+[2015.11.26-17.41.01:950][458]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map2.Map2:PersistentLevel' has LevelScriptBlueprint '/Game/Map2.Map2:PersistentLevel.Map2' with GeneratedClass '/Game/Map2.Map2_C' with ClassGeneratedBy '/Game/Map2.Map2:PersistentLevel.Map2'
+[2015.11.26-17.41.08:966][615]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map2.Map2:PersistentLevel' has LevelScriptBlueprint '/Game/Map2.Map2:PersistentLevel.Map2' with GeneratedClass '/Game/Map2.Map2_C' with ClassGeneratedBy '/Game/Map2.Map2:PersistentLevel.Map2'
+[2015.11.26-17.41.09:084][615]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map2.Map2:PersistentLevel' has LevelScriptBlueprint '/Game/Map2.Map2:PersistentLevel.Map2' with GeneratedClass '/Game/Map2.Map2_C' with ClassGeneratedBy '/Game/Map2.Map2:PersistentLevel.Map2'
+[2015.11.26-17.41.09:176][616]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DE96EED080
+[2015.11.26-17.41.19:580][797]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2015.11.26-17.41.19:721][797]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map2" FILE="../../../../../../Users/Stoffe/Documents/GitHub/SW_Project/SW_Project2/Content/Map2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.11.26-17.41.20:038][797]LogSavePackage: Save=287.743774ms
+[2015.11.26-17.41.20:038][797]LogSavePackage: Moving '../../../../../../Users/Stoffe/Documents/GitHub/SW_Project/SW_Project2/Saved/Map2837689D942F19A199C6EE899B323E700.tmp' to '../../../../../../Users/Stoffe/Documents/GitHub/SW_Project/SW_Project2/Content/Map2.umap'
+[2015.11.26-17.41.20:040][797]LogSavePackage: Total save time: 297.255423ms
+[2015.11.26-17.41.20:040][797]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Stoffe/Documents/GitHub/SW_Project/SW_Project2/Content/Map2.umap
+[2015.11.26-17.41.20:079][797]LogFileHelpers: Saving map 'Map2' took 0.409
+[2015.11.26-17.41.47:168][240]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2015.11.26-17.41.47:622][241]Cmd: QUIT_EDITOR
+[2015.11.26-17.41.48:669][241]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.26-17.41.48:819][241]LogExit: Preparing to exit.
+[2015.11.26-17.41.49:809][241]LogExit: Editor shut down
+[2015.11.26-17.41.49:810][241]LogExit: Transaction tracking system shut down
+[2015.11.26-17.41.49:812][241]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DE8777D3A0
+[2015.11.26-17.41.49:812][241]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DE9B72D6C0
+[2015.11.26-17.41.49:812][241]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DE9C73A520
+[2015.11.26-17.41.49:813][241]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DE9DC5FD80
+[2015.11.26-17.41.49:813][241]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DEB7158400
+[2015.11.26-17.41.49:961][241]LogExit: Object subsystem successfully closed.
+[2015.11.26-17.41.49:973][241]LogD3D11RHI: Shutdown
+[2015.11.26-17.41.49:973][241]LogD3D11RHI: CleanupD3DDevice
+[2015.11.26-17.41.50:048][241]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.11.26-17.41.50:066][241]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2015.11.26-17.41.50:066][241]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2015.11.26-17.41.50:066][241]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2015.11.26-17.41.50:066][241]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2015.11.26-17.41.50:066][241]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2015.11.26-17.41.50:067][241]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2015.11.26-17.41.50:067][241]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2015.11.26-17.41.50:067][241]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2015.11.26-17.41.50:067][241]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2015.11.26-17.41.50:067][241]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2015.11.26-17.41.50:067][241]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2015.11.26-17.41.50:067][241]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2015.11.26-17.41.50:067][241]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2015.11.26-17.41.50:067][241]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2015.11.26-17.41.50:067][241]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2015.11.26-17.41.50:067][241]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2015.11.26-17.41.50:067][241]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2015.11.26-17.41.50:067][241]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2015.11.26-17.41.50:067][241]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2015.11.26-17.41.50:067][241]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2015.11.26-17.41.50:068][241]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2015.11.26-17.41.50:068][241]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2015.11.26-17.41.50:068][241]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2015.11.26-17.41.50:068][241]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2015.11.26-17.41.50:068][241]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2015.11.26-17.41.50:068][241]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2015.11.26-17.41.50:822][241]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2015.11.26-17.41.50:822][241]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2015.11.26-17.41.50:822][241]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2015.11.26-17.41.50:822][241]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2015.11.26-17.41.50:822][241]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2015.11.26-17.41.50:822][241]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2015.11.26-17.41.50:822][241]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2015.11.26-17.41.50:822][241]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2015.11.26-17.41.50:822][241]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2015.11.26-17.41.50:822][241]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2015.11.26-17.41.50:822][241]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2015.11.26-17.41.50:822][241]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2015.11.26-17.41.50:822][241]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2015.11.26-17.41.50:822][241]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2015.11.26-17.41.50:822][241]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2015.11.26-17.41.50:822][241]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2015.11.26-17.41.50:822][241]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2015.11.26-17.41.50:822][241]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2015.11.26-17.41.50:822][241]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2015.11.26-17.41.50:822][241]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2015.11.26-17.41.50:822][241]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2015.11.26-17.41.50:822][241]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2015.11.26-17.41.50:822][241]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2015.11.26-17.41.50:822][241]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2015.11.26-17.41.50:822][241]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2015.11.26-17.41.50:822][241]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2015.11.26-17.41.50:822][241]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2015.11.26-17.41.50:822][241]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2015.11.26-17.41.50:822][241]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2015.11.26-17.41.50:823][241]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2015.11.26-17.41.50:823][241]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2015.11.26-17.41.50:823][241]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2015.11.26-17.41.50:823][241]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2015.11.26-17.41.50:823][241]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2015.11.26-17.41.50:823][241]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2015.11.26-17.41.50:823][241]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2015.11.26-17.41.50:823][241]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2015.11.26-17.41.50:823][241]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2015.11.26-17.41.50:823][241]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2015.11.26-17.41.50:823][241]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2015.11.26-17.41.50:823][241]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2015.11.26-17.41.50:823][241]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2015.11.26-17.41.50:823][241]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2015.11.26-17.41.50:823][241]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2015.11.26-17.41.50:823][241]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2015.11.26-17.41.50:823][241]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2015.11.26-17.41.50:823][241]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2015.11.26-17.41.50:823][241]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2015.11.26-17.41.50:823][241]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2015.11.26-17.41.50:823][241]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2015.11.26-17.41.50:971][241]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2015.11.26-17.41.50:971][241]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2015.11.26-17.41.50:971][241]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2015.11.26-17.41.50:971][241]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2015.11.26-17.41.50:971][241]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2015.11.26-17.41.50:971][241]LogModuleManager: Shutting down and abandoning module OculusRift (117)
+[2015.11.26-17.41.50:971][241]LogModuleManager: Shutting down and abandoning module OculusLibrary (116)
+[2015.11.26-17.41.50:971][241]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2015.11.26-17.41.50:978][241]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2015.11.26-17.41.50:978][241]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2015.11.26-17.41.50:978][241]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2015.11.26-17.41.50:978][241]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2015.11.26-17.41.50:978][241]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2015.11.26-17.41.50:978][241]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2015.11.26-17.41.50:978][241]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2015.11.26-17.41.50:978][241]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2015.11.26-17.41.50:978][241]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2015.11.26-17.41.50:978][241]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2015.11.26-17.41.50:978][241]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2015.11.26-17.41.50:978][241]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2015.11.26-17.41.50:978][241]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2015.11.26-17.41.50:978][241]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2015.11.26-17.41.50:978][241]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2015.11.26-17.41.50:978][241]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2015.11.26-17.41.50:978][241]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2015.11.26-17.41.50:978][241]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2015.11.26-17.41.50:978][241]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2015.11.26-17.41.50:978][241]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2015.11.26-17.41.50:978][241]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2015.11.26-17.41.50:978][241]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2015.11.26-17.41.50:978][241]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2015.11.26-17.41.50:978][241]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2015.11.26-17.41.50:979][241]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2015.11.26-17.41.50:980][241]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2015.11.26-17.41.51:093][241]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2015.11.26-17.41.51:094][241]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2015.11.26-17.41.51:094][241]LogModuleManager: Shutting down and abandoning module SW_Project2 (86)
+[2015.11.26-17.41.51:094][241]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.11.26-17.41.51:194][241]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.11.26-17.41.51:194][241]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.11.26-17.41.51:194][241]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.11.26-17.41.51:196][241]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.11.26-17.41.51:196][241]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.11.26-17.41.51:196][241]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.11.26-17.41.51:197][241]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.11.26-17.41.51:197][241]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.11.26-17.41.51:197][241]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.11.26-17.41.51:197][241]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.11.26-17.41.51:197][241]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.11.26-17.41.51:197][241]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.11.26-17.41.51:197][241]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.11.26-17.41.51:197][241]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.11.26-17.41.51:197][241]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.11.26-17.41.51:197][241]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.11.26-17.41.51:197][241]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.11.26-17.41.51:197][241]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.11.26-17.41.51:197][241]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.11.26-17.41.51:199][241]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.11.26-17.41.51:199][241]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.11.26-17.41.51:199][241]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.11.26-17.41.51:199][241]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.11.26-17.41.51:199][241]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.11.26-17.41.51:199][241]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.11.26-17.41.51:199][241]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.11.26-17.41.51:199][241]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.11.26-17.41.51:199][241]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.11.26-17.41.51:199][241]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.11.26-17.41.51:200][241]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.11.26-17.41.51:213][241]LogDerivedDataCache: Shutdown
+[2015.11.26-17.41.51:213][241]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.11.26-17.41.51:213][241]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.11.26-17.41.51:213][241]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.11.26-17.41.51:213][241]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.11.26-17.41.51:213][241]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.11.26-17.41.51:213][241]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.11.26-17.41.51:213][241]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.11.26-17.41.51:213][241]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.11.26-17.41.51:213][241]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.11.26-17.41.51:213][241]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.11.26-17.41.51:213][241]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.11.26-17.41.51:213][241]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.11.26-17.41.51:213][241]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.11.26-17.41.51:213][241]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.11.26-17.41.51:213][241]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.11.26-17.41.51:213][241]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.11.26-17.41.51:213][241]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.11.26-17.41.51:213][241]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.11.26-17.41.51:213][241]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.11.26-17.41.51:213][241]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.11.26-17.41.51:213][241]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.11.26-17.41.51:213][241]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.11.26-17.41.51:213][241]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.11.26-17.41.51:213][241]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.11.26-17.41.51:213][241]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.11.26-17.41.51:213][241]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.11.26-17.41.51:213][241]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.11.26-17.41.51:213][241]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.11.26-17.41.51:213][241]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.11.26-17.41.51:213][241]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.11.26-17.41.51:213][241]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.11.26-17.41.51:213][241]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.11.26-17.41.51:213][241]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.11.26-17.41.51:213][241]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.11.26-17.41.51:213][241]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.11.26-17.41.51:213][241]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.11.26-17.41.53:717][241]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.11.26-17.41.53:717][241]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.11.26-17.41.53:717][241]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.11.26-17.41.53:717][241]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.11.26-17.41.53:717][241]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.11.26-17.41.53:717][241]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.11.26-17.41.53:719][241]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.11.26-17.41.53:719][241]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.11.26-17.41.53:719][241]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.11.26-17.41.53:719][241]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.11.26-17.41.53:719][241]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.11.26-17.41.53:719][241]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.11.26-17.41.53:719][241]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.11.26-17.41.53:719][241]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.11.26-17.41.53:719][241]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.11.26-17.41.53:719][241]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.11.26-17.41.53:719][241]LogExit: Exiting.
+[2015.11.26-17.41.53:748][241]Log file closed, 11/26/15 18:41:53
